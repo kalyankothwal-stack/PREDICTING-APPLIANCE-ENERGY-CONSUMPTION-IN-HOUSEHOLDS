@@ -73,7 +73,6 @@ streamlit run app.py
 - `final_model.pkl`: the full Lasso model from the notebook, scored once on the test set
 - `app_model.pkl`: the small model used by the app
 - `requirements.txt`: the few packages the app needs (used by Streamlit Cloud)
-- `requirements-notebook.txt`: all the packages needed to run the notebook
 
 ## Tools
 
