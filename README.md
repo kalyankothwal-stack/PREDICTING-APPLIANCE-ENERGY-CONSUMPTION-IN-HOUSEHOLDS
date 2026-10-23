@@ -53,7 +53,7 @@ The test set was used once, at the end. The scaler was fitted on the training da
 
 ## The app
 
-**Live app:** [Open the app](https://household-appliance-energy-predictor.streamlit.app/)
+**Live app:** [household-appliance-energy-predictor.streamlit.app](https://household-appliance-energy-predictor.streamlit.app/)
 
 `app.py` is a small Streamlit app. You enter the day, the hour and the last 12 readings (oldest first), and it predicts the next reading. It uses a smaller Lasso model saved in `app_model.pkl` (16 inputs). Its validation RMSE is 59.8 Wh, against 59.4 Wh for the full Lasso. The scores the app shows are validation scores, not test scores.
 
